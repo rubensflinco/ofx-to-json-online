@@ -1,0 +1,4 @@
+{
+    "/pagamento/sucesso": "/sucesso/pago",
+    "/gratis/sucesso": "/sucesso/gratis"
+}

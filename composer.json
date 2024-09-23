@@ -1,0 +1,27 @@
+{
+    "name": "rubensflinco.com.br/ofx-to-json-online",
+    "description": "Converta o arquivo .ofx para o arquivo .json online no site.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rubens Flinco",
+            "email": "contato@rubensflinco.com.br"
+        }
+    ],
+    "scripts": {
+        "start": "composer run dev",
+        "dev": "php -S localhost:5000"
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "guzzlehttp/guzzle": "^7.8",
+        "agenciasys/ofxparser": "^1.6",
+        "components/jquery": "^3.7",
+        "twbs/bootstrap": "^5.3",
+        "enyo/dropzone": "^5.9",
+        "symfony/translation": "^5.4"
+    }
+}

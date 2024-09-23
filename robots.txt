@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /*
+Disallow: /
+
+Allow: /index.php
+Allow: /busca/numero
+Allow: /busca/email

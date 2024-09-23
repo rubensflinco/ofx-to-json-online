@@ -1,0 +1,57 @@
+# This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: es - 🚀 🔨 Subir no servidor FTP de Produção
+on:
+  push:
+    branches: [ main ]
+jobs:
+  web-deploy:
+    name: 🚀 🔨 Subir no servidor FTP de Produção
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Obtenha o código mais recente do github
+      uses: actions/checkout@v2
+
+
+
+    - name: 📥 Configurar o PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2' # substitua pela versão do PHP desejada
+
+
+
+    - name: 📥 Instalar o Composer
+      run: |
+        php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+        php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+        php -r "unlink('composer-setup.php');"
+
+
+
+    - name: 📥 Instale os pacotes do composer
+      run: composer install
+
+
+
+    - name: 🔨 Criar arquivo .env
+      uses: SpicyPizza/create-envfile@v2.0.2
+      with:
+        envkey_AMBIENTE: prod
+        envkey_IDIOMA: es
+        file_name: .env
+        fail_on_empty: false
+
+
+
+    - name: ☁️ Sincronizar arquivos no servidor FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ vars.FTP_SERVER }}
+        username: ${{ vars.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: /es/
+        exclude: |
+          **/.git*
+          **/.git*/**

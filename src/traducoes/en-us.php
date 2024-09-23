@@ -4,7 +4,7 @@
             'nome_site' => 'Convert OFX to JSON online',
             'metatag_inicio_titulo' => '',
             'metatag_fim_titulo' => ' | Convert OFX to JSON',
-            'rodape' => 'OFX to JSON Converter - Created by'
+            'rodape' => 'OFX to JSON Converter <br/> Created by'
         ),
         'index' => array(
             'metatag_titulo' => 'Convert OFX to JSON online for free!',

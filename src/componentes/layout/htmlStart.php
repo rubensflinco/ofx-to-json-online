@@ -6,7 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light">
-    <link rel="icon" href="<?php echo $pathUrl;?>/assets/img/astronauta-perfil-fundo-transparente.png">
+    <meta name="description" content="<?php echo $textoTraduzido['config']['descricao_site']; ?>">
+
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $pathUrl;?>/assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $pathUrl;?>/assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $pathUrl;?>/assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo $pathUrl;?>/assets/icon/site.webmanifest">
+
+
+    <meta property="og:title" content="<?php echo $textoTraduzido['config']['nome_site']; ?>" />
+    <meta property="og:description" content="<?php echo $textoTraduzido['config']['descricao_site']; ?>" />
+    <meta property="og:image" content="<?php echo $pathUrl;?>/assets/img/og-<?php echo $_ENV['IDIOMA'] ?>.png" />
+    <meta property="og:url" content="<?php echo $pathUrl;?>" />
+    
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "<?php echo $textoTraduzido['config']['nome_site']; ?>",
+            "description": "<?php echo $textoTraduzido['config']['descricao_site']; ?>",
+            "applicationCategory": "Utility",
+            "operatingSystem": "Web",
+            "url": "<?php echo $pathUrl;?>",
+            "offers": {
+                "@type": "Offer",
+                "price": "0.00",
+                "priceCurrency": "BRL"
+            }
+        }
+    </script>
+    
 
     <!-- jQuery -->
     <script type="text/javascript" src="<?php echo $pathUrl;?>/vendor/components/jquery/jquery.min.js"></script>
@@ -41,7 +73,7 @@
 
 </head>
 
-<div class="theme-body">
+<div class="container-root">
     <?php 
         include $PATH_ROOT."/src/componentes/menu.php";
     ?>

@@ -1,0 +1,19 @@
+/* TEAM */
+Site: https://ofxtojson.fdoma.in
+Desenvolvedor: Rubens Flinco
+Email: contato@rubensflinco.com.br
+Blog: https://rubensflinco.com.br
+Empresa: Grupo PlanetsWEB
+
+/* SITE */
+Tecnologias: PHP, HTML5, CSS3, JavaScript 
+Hospedagem: PlanetsWEB
+Ferramentas: Bootstrap, FontAwesome, Jquery, Dropzone
+Última Atualização: 23 de Setembro de 2024
+
+/* THANKS */
+Agradecimentos: Giulia Amaral (Minha esposa), Japonesa (Nossa gata)
+Inspiração: Pesquisando por uma ferramenta de madrugada e não achando nenhuma.
+
+/* MENSAGEM */
+Criado com o objetivo de facilitar a conversão de arquivos OFX para JSON, ajudando desenvolvedores e analistas a gerenciarem dados financeiros de forma mais prática e eficiente.

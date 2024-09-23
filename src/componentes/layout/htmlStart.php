@@ -44,7 +44,7 @@
 
 </head>
 
-<div class="theme-body">
+<div class="container-root">
     <?php 
         include $PATH_ROOT."/src/componentes/menu.php";
     ?>

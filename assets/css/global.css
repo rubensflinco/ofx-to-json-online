@@ -28,3 +28,9 @@ footer {
 footer>p{
     margin: 0px;
 }
+
+.container-root{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}

@@ -21,7 +21,6 @@
         "agenciasys/ofxparser": "^1.6",
         "components/jquery": "^3.7",
         "twbs/bootstrap": "^5.3",
-        "enyo/dropzone": "^5.9",
-        "symfony/translation": "^5.4"
+        "enyo/dropzone": "^5.9"
     }
 }

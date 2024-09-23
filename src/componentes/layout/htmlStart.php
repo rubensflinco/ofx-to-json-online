@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light">
-    <link rel="icon" href="<?php echo $pathUrl;?>/assets/img/astronauta-perfil-fundo-transparente.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $pathUrl;?>/assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $pathUrl;?>/assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $pathUrl;?>/assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo $pathUrl;?>/assets/icon/site.webmanifest">
 
     <!-- jQuery -->
     <script type="text/javascript" src="<?php echo $pathUrl;?>/vendor/components/jquery/jquery.min.js"></script>

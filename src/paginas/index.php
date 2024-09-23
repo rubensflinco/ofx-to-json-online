@@ -16,9 +16,9 @@
     </div>
 
     <!-- Espaço para anúncios -->
-    <div class="row mt-5">
-        <div class="col-md-12 text-center">
-            <div style="background-color: #eee;">
+    <div class="row mt-5 mb-5">
+        <div class="col-md-12 text-center mb-5">
+            <div style="background-color: #eee;" class="w-100 mb-5">
 
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7169391558658534"
                 crossorigin="anonymous"></script>

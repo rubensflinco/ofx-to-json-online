@@ -2,6 +2,7 @@
     $textoTraduzido = array(
         'config' => array(
             'nome_site' => 'Convert OFX to JSON online',
+            'descricao_site' => 'Convert your OFX files to JSON online and for free. Simple, fast and secure.',
             'metatag_inicio_titulo' => '',
             'metatag_fim_titulo' => ' | Convert OFX to JSON',
             'rodape' => 'OFX to JSON Converter <br/> Created by'

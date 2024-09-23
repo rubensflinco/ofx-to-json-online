@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light">
+    <meta name="description" content="<?php echo $textoTraduzido['config']['descricao_site']; ?>">
+
     
 
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $pathUrl;?>/assets/icon/apple-touch-icon.png">

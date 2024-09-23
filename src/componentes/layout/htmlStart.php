@@ -20,6 +20,24 @@
     <meta property="og:url" content="<?php echo $pathUrl;?>" />
     
 
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "<?php echo $textoTraduzido['config']['nome_site']; ?>",
+            "description": "<?php echo $textoTraduzido['config']['descricao_site']; ?>",
+            "applicationCategory": "Utility",
+            "operatingSystem": "Web",
+            "url": "<?php echo $pathUrl;?>",
+            "offers": {
+                "@type": "Offer",
+                "price": "0.00",
+                "priceCurrency": "BRL"
+            }
+        }
+    </script>
+    
+
     <!-- jQuery -->
     <script type="text/javascript" src="<?php echo $pathUrl;?>/vendor/components/jquery/jquery.min.js"></script>
 

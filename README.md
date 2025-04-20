@@ -7,7 +7,7 @@ https://ofxtojson.fdoma.in/pt-br/
 
 
 ### Dependências para rodar
-- PHP
+- PHP v8.1
 - Composer
 
 ### Como inciar projeto:
@@ -26,7 +26,7 @@ Convert file .ofx to .json file online website.
 https://ofxtojson.fdoma.in/en-us/
 
 ### Dependencies to run
-- PHP
+- PHP v8.1
 - Composer
 
 ### How to start the project:
